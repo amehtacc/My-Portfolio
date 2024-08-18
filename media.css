@@ -1,0 +1,206 @@
+@media screen and (max-width: 1024px) {
+  #nav {
+    height: 4rem;
+    width: 100vw;
+  }
+  #left-logo {
+    margin-left: -3rem;
+    font-size: 1.7rem;
+  }
+  #middle a {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0px 1.5rem;
+  }
+  #middle a:hover {
+    border-bottom: 2px solid #ffffff;
+  }
+  #right-social {
+    margin-right: -3rem;
+  }
+  #social-icon {
+    font-size: 1.1rem;
+  }
+
+  /* Main-Hero Section */
+  main {
+    margin-top: 12rem;
+  }
+  #hero {
+    margin-left: 8.2rem;
+  }
+  #left-hero {
+    height: 15.625rem;
+  }
+  #left-hero h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.625rem;
+  }
+  #left-hero button {
+    width: 8rem;
+    height: 2.8rem;
+  }
+  #right-hero img {
+    width: 28rem;
+    padding-left: 5rem;
+  }
+
+  /* Main-Project Section */
+  #projects {
+    justify-content: space-between;
+    margin: 0rem 8.2rem 6.25rem 8.2rem;
+  }
+  #project {
+    font-size: 1.7rem;
+    margin-top: -4.5rem;
+    margin-bottom: 5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+  }
+
+  /* Technologies Section */
+  #technologies-skills {
+    height: 38rem;
+    margin: 0rem 8.2rem 1rem 8.2rem;
+  }
+  #skills {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .skill-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .text {
+    width: 96%;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .level {
+    font-size: 0.9rem;
+  }
+
+  /* Additional skills and tools */
+  #additional {
+    max-width: 100%;
+    margin: 0rem 8.2rem 6.25rem 8.2rem;
+  }
+  li img {
+    margin-top: -30px;
+    height: 40px;
+  }
+  ul {
+    justify-content: space-between;
+    font-size: 1rem;
+    gap: 5.3rem;
+    font-size: 1rem;
+  }
+
+  ul div {
+    gap: 40px;
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #left-logo {
+    margin-left: -2rem;
+    font-size: 1.5rem;
+  }
+  #middle a {
+    font-size: 0.8rem;
+    margin: 0px 1.2rem;
+  }
+  #right-social {
+    margin-right: 0rem;
+  }
+  #social-icon {
+    font-size: 1rem;
+  }
+
+  /* Main-Hero Section */
+  main {
+    margin-top: 10rem;
+  }
+  #hero {
+    margin-left: 6rem;
+  }
+  #left-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+  }
+  #left-hero p {
+    font-size: 0.9rem;
+  }
+  #left-hero button {
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+  #right-hero img {
+    width: 21rem;
+    margin-right: -2.8rem;
+    padding-left: 4rem;
+  }
+
+  /* Main-Project Section */
+  /* #projects {
+    justify-content: space-between;
+    margin: 0rem 8.2rem 6.25rem 8.2rem;
+  }
+  #project {
+    font-size: 1.7rem;
+    margin-top: -4.5rem;
+    margin-bottom: 5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  } */
+
+  /* Technologies Section */
+  /* #technologies-skills {
+    height: 38rem;
+    margin: 0rem 8.2rem 1rem 8.2rem;
+  }
+  #skills {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .skill-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .text {
+    width: 96%;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .level {
+    font-size: 0.9rem;
+  } */
+
+  /* Additional skills and tools */
+  /* #additional {
+    max-width: 100%;
+    margin: 0rem 8.2rem 6.25rem 8.2rem;
+  }
+  li img {
+    margin-top: -30px;
+    height: 40px;
+  }
+  ul {
+    font-size: 1rem;
+  }
+  ul div {
+    gap: 40px;
+    margin-bottom: -30px;
+  } */
+}
