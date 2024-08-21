@@ -350,6 +350,9 @@
   }
 
   /* Footer Section */
+  #contact-form {
+    margin-bottom: 0 2rem 6.25rem 2rem;
+  }
   #contact-form label {
     font-size: 1rem;
   }
@@ -362,7 +365,7 @@
     border-radius: 0 0.8rem 0 0.8rem;
   }
   #contact-form textarea {
-    width: 70%;
+    width: 94%;
   }
   #contact-form button {
     width: 35%;
