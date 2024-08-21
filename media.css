@@ -357,7 +357,7 @@
     font-size: 1rem;
   }
   #contact-form input {
-    width: 16rem;
+    width: 14rem;
     height: 1.3rem;
   }
   #contact-form input,
@@ -365,7 +365,7 @@
     border-radius: 0 0.8rem 0 0.8rem;
   }
   #contact-form textarea {
-    width: 94%;
+    width: 90%;
   }
   #contact-form button {
     width: 35%;
