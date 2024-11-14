@@ -56,12 +56,13 @@
     <!-- Hero Section -->
     <div id="hero">
       <div id="left-hero">
-        <h1>Fronted Developer</h1>
+        <h1>Fronted Engineer</h1>
         <p>
           Who love building cool stuff on the internet using HTML, CSS,
           JavaScript, and Bootstrap. I'm all about turning designs into
           responsive web applications and leveling up my game with React.js!
         </p>
+        
         <a href="https://drive.google.com/file/d/1aRU3fc466i7Tf51zlmLa2Nd2fine48-Q/view?usp=sharing"
           target="_blank"><button id="button">View Resume</button></a>
       </div>
@@ -74,6 +75,25 @@
     <!-- Project Section -->
     <h2 id="project">Projects</h2>
     <div id="projects">
+      <div id="project-one">
+        <img src="Assets\Project_4.png" alt="" />
+        <h3>Currency Converter</h3>
+        <p>
+          Developed a currency converter using HTML, TailwindCSS, JavaScript, and ReactJS integrating real-time API data to
+          display current currency exchange rate.
+        </p>
+        <div class="technologies-used">
+          <span>HTML</span>
+          <span>JavaScript</span>
+          <span>TailwindCSS</span>
+          <span>ReactJS</span>
+        </div>
+        <div class="project-btn">
+          <a href="https://merry-kringle-1124f.netlify.app/" target="_blank"><button id="button">Look it
+              up</button></a>
+        </div>
+      </div>
+
       <div id="project-one">
         <img src="Assets\Project_3.png" alt="" />
         <h3>Weather App</h3>
@@ -111,23 +131,6 @@
               up</button></a>
         </div>
       </div>
-
-      <div id="project-one">
-        <img src="Assets\Project_1.png" alt="" />
-        <h3>Netflix UI Clone</h3>
-        <p>
-          Developed a responsive Netflix clone using HTML and CSS. The project
-          features a responsive design and dynamic content display for an
-          immersive experience.
-        </p>
-        <div class="technologies-used">
-          <span>HTML</span>
-          <span>CSS</span>
-        </div>
-        <div class="project-btn">
-          <a href="https://jade-kitsune-0224b.netlify.app/" target="_blank"><button id="button">Look it up</button></a>
-        </div>
-      </div>
     </div>
 
     <!-- Technologies Section -->
@@ -154,6 +157,15 @@
         </div>
         <div class="skill-name">
           <div class="text">
+            <p>Tailwind</p>
+            <p class="level">Intermediate</p>
+          </div>
+          <div class="outer">
+            <div class="inner-advanced intermediate"></div>
+          </div>
+        </div>
+        <div class="skill-name">
+          <div class="text">
             <p>JavaScript</p>
             <p class="level">Intermediate</p>
           </div>
@@ -172,20 +184,11 @@
         </div>
         <div class="skill-name">
           <div class="text">
-            <p>Bootstrap</p>
+            <p>React</p>
             <p class="level">Intermediate</p>
           </div>
           <div class="outer">
             <div class="inner-advanced intermediate"></div>
-          </div>
-        </div>
-        <div class="skill-name">
-          <div class="text">
-            <p>React</p>
-            <p class="level">Beginner</p>
-          </div>
-          <div class="outer">
-            <div class="inner-advanced beginner"></div>
           </div>
         </div>
       </div>
@@ -210,7 +213,9 @@
         <img src="Assets\netlify.png" alt="" />
       </div>
     </div>
+
   </main>
+  
 
 
   <!-- Start Footer Section -->
@@ -220,19 +225,19 @@
       <form netlify>
         <div>
           <label for="fullname">Fullname</label>
-          <input id="fullname" type="text" name="name">
+          <input id="fullname" type="text">
         </div>
         <div>
           <label for="email">Email</label>
-          <input id="email" type="email" name="email">
+          <input id="email" type="email">
         </div>
         <div>
           <label for="mobile-number">Mobile Number</label>
-          <input id="mobile-number" type="text" name="number">
+          <input id="mobile-number" type="text">
         </div>
         <div>
           <label for="message">Message</label>
-          <textarea name="message" id="message" name="message"></textarea>
+          <textarea name="message" id="message"></textarea>
         </div>
         <button type="submit">Submit</button>
       </form>
