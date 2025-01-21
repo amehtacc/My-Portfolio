@@ -14,7 +14,7 @@ function Home() {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1mSEeAwtjr5wACs6sKxv3Pufwyd8knxAk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OOkiVbp1PKMuhMrc9tvY5dKQcIE47G8p/view?usp=sharing"
             target="_blank"
             className="w-[7rem] md:w-[7rem] lg:w-[8rem] xl:w-[9.37rem] h-[2.2rem] md:h-[2.4rem] lg:h-[2.5rem] xl:h-[3.12rem] flex justify-center items-center cursor-pointer rounded-[5rem] text-[0.75em] md:text-[0.75rem] lg:text-[0.8rem] xl:text-[0.88rem] font-bold text-[#090912] bg-gradient-to-br from-[#0bcaff] to-[#ffffff] hover:bg-none hover:text-white hover:border-2 border-white"
           >
