@@ -6,7 +6,7 @@ function Footer() {
     <div id='contact' className='w-full px-10 md:px-[100px] lg:px-[180px] py-[80px] bg-[#111827]'>
       <h2 className="text-center text-white text-[1.75rem] sm:text-[1.875rem] font-bold mb-[5rem]">Contact</h2>
       <div className='w-full flex justify-center items-center'>
-        <form netlify>
+        <form name="contact" method="POST" netlify>
           <div>
             <label className='block text-base sm:text-lg font-semibold text-left' htmlFor="fullname">Fullname</label>
             <input className='w-[18rem] sm:w-[30rem] h-9 sm:h-10 mt-1 mb-6 text-white p-2 font-medium rounded-tr-2xl rounded-bl-2xl outline-none bg-[#656570]/80' id="fullname" type="text"/>
