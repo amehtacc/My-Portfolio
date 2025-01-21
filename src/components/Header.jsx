@@ -54,7 +54,7 @@ function Header() {
             : ""
         } transition-all duration-200`}
       >
-        <div className="w-full h-20 text-center flex max-sm:justify-between lg:justify-between items-center px-8 md:px-16 xl:px-28">
+        <div className="w-full h-20 text-center flex max-sm:justify-between lg:justify-between items-center px-5 md:px-16 xl:px-28">
           {/* Logo Section */}
           <div className=" text-3xl xl:text-4xl w-[80%] md:w-[50%] lg:w-[25%] h-full flex justify-start items-center font-bold bg-gradient-to-b from-[#0bcaff] to-[#ffffff] text-transparent bg-clip-text">
             Aryan Mehta

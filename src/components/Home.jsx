@@ -4,7 +4,7 @@ import { HeroImage } from "./images.js";
 function Home() {
   return (
       <div className="w-full h-[300px] lg:h-[340px] xl:h-[500px] mt-36 sm:mt-52 flex justify-center md:pl-[100px] lg:pl-[112px] xl:pl-[180px] text-white">
-        <div className="sm:w-[50%] max-sm:absolute z-10 h-64 max-sm:pl-12">
+        <div className="sm:w-[50%] max-sm:absolute z-10 h-64 max-sm:pl-8">
           <h1 className="text-[1.8rem] md:text-[2rem] xl:text-[2.625rem] font-bold mb-3">Frontend Developer</h1>
           <p className="text-xs md:text-sm xl:text-base text-[#ffffff]/80 mb-6 max-sm:pr-16">
             Who love building cool stuff on the internet using HTML, CSS,
