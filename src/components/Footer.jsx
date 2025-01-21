@@ -11,18 +11,10 @@ function Footer() {
           Contact
         </h2>
         <div className="w-full flex justify-center items-center">
-          {/* Add the Netlify-specific attributes */}
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            {/* Honeypot field for spam prevention */}
-            <input type="hidden" name="form-name" value="contact" />
-            <div hidden>
-              <input name="bot-field" />
-            </div>
+          
+          <form name="contact" method="POST" data-netlify="true">
+            {/* Hidden field to specify the form name */}
+            <input type="hidden" name="contact-form" value="contact" />
 
             {/* Form Fields */}
             <div>
@@ -35,7 +27,7 @@ function Footer() {
               <input
                 className="w-[18rem] sm:w-[30rem] h-9 sm:h-10 mt-1 mb-6 text-white p-2 font-medium rounded-tr-2xl rounded-bl-2xl outline-none bg-[#656570]/80"
                 id="fullname"
-                name="fullname" // Ensure this matches Netlify field naming
+                name="fullname" 
                 type="text"
                 required
               />
@@ -50,7 +42,7 @@ function Footer() {
               <input
                 className="w-[18rem] sm:w-[30rem] h-9 sm:h-10 mt-1 mb-6 text-white p-2 font-medium rounded-tr-2xl rounded-bl-2xl outline-none bg-[#656570]/80"
                 id="email"
-                name="email" // Ensure this matches Netlify field naming
+                name="email" 
                 type="email"
                 required
               />
@@ -65,7 +57,7 @@ function Footer() {
               <input
                 className="w-[18rem] sm:w-[30rem] h-9 sm:h-10 mt-1 mb-6 text-white p-2 font-medium rounded-tr-2xl rounded-bl-2xl outline-none bg-[#656570]/80"
                 id="mobile-number"
-                name="mobile-number" // Ensure this matches Netlify field naming
+                name="mobile-number" 
                 type="text"
                 required
               />
